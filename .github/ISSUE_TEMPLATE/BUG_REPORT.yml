@@ -14,7 +14,7 @@ body:
           - [Authentication](https://github.com/ccxt/ccxt/wiki/Manual#authentication)
           - [API Keys Setup](https://github.com/ccxt/ccxt/wiki/Manual#api-keys-setup)
         - Read the [API docs](https://github.com/ccxt/ccxt/wiki/Exchange-Markets) for your exchange.
-        
+
         ### Reporting Vulnerabilities And Critical Issues
 
         If you found a security issue or a critical vulnerability and reporting it in public would impose risk – please feel free to send us a message to <a href="mailto:info@ccxt.trade">info@ccxt.trade</a>.
@@ -36,7 +36,7 @@ body:
       label: Operating System
       placeholder: "e.g. MacOS Monteray v12.5.1 Intel Core i3"
       description: |
-        - `uname -mpovr`                                                       (Linux) 
+        - `uname -or`                                                       (Linux) 
         - selecting ** -> System Preferences -> Overview** from the menu bar  (MacOs)
         - #TODO                                                                (Windows)
     validations:
@@ -57,30 +57,29 @@ body:
     id: ccxt-version
     attributes:
       label: CCXT Version
-      placeholder: "18.4.0"
+      placeholder: "2.4.71"
       description: |
         - `npm info ccxt version` (JavaScript)
         - `pip show ccxt`(Python)
         - `composer show ccxt` (PHP)
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
       label: Description
       description: Describe the issue that you're having using words. Be precise. Include clear steps for how to reproduce the issue
     validations:
-      required: true
+      required: false 
 
   - type: textarea
     attributes:
       label: Code
       description: Post a complete program containing the minimal amount of code required for us to reproduce the error, so that we can copy and paste your code and receive the same error. DON'T POST SCREENSHOTS OF CODE OR ERRORS, POST THE OUTPUT AND CODE IN PLAIN TEXT!
       placeholder: |
-        paste your code here, between triple backticks(```), in the format of
           ```
           YOUR_CODE_HERE
           ```
     validations:
-      required: true
+      required: false
 
