@@ -41,10 +41,22 @@ body:
     validations:
       required: false
 
+  - type: checkboxes
+    id: language
+    attributes:
+      label: Which languages are relevant to this report
+      description: You may select more than one.
+      options:
+        - label: Javascript
+        - label: python
+        - label: php
+    validations:
+      require: true
+
   - type: input
     id: language-version
     attributes:
-      label: Language and Version
+      label: Language Version
       description: |
         - `node -v`   (JavaScript)
         - `python -V` (Python)
@@ -71,10 +83,18 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: |
+
+        **DON'T POST SCREENSHOTS OF CODE OR ERRORS, POST THE OUTPUT AND CODE IN PLAIN TEXT!**
+
+        **DON'T POST YOUR APIKEYS OR SECRET KEYS!**
+
   - type: textarea
     attributes:
       label: Code
-      description: Post a complete program containing the minimal amount of code required for us to reproduce the error, so that we can copy and paste your code and receive the same error. DON'T POST SCREENSHOTS OF CODE OR ERRORS, POST THE OUTPUT AND CODE IN PLAIN TEXT!
+      description: Post a complete program containing the minimal amount of code required for us to reproduce the error, so that we can copy and paste your code and receive the same error.
       placeholder: |
           ```
           YOUR CODE HERE
