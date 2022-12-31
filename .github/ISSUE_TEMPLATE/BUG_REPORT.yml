@@ -14,7 +14,7 @@ body:
           - [Authentication](https://github.com/ccxt/ccxt/wiki/Manual#authentication)
           - [API Keys Setup](https://github.com/ccxt/ccxt/wiki/Manual#api-keys-setup)
         - Read the [API docs](https://github.com/ccxt/ccxt/wiki/Exchange-Markets) for your exchange.
-        
+
         ### Reporting Vulnerabilities And Critical Issues
 
         If you found a security issue or a critical vulnerability and reporting it in public would impose risk – please feel free to send us a message to <a href="mailto:info@ccxt.trade">info@ccxt.trade</a>.
@@ -41,6 +41,7 @@ body:
         - selecting **Start > Settings > System > About** from bottom left menu   (Windows)
     validations:
       required: false
+
   - type: input
     id: language-version
     attributes:
@@ -52,6 +53,7 @@ body:
         - `php -v`    (PHP)
     validations:
       required: false
+
   - type: input
     id: ccxt-version
     attributes:
