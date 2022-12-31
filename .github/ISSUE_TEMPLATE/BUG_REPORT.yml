@@ -50,7 +50,7 @@ body:
       label: Programming Languages
       description: Which language are you using?
       options:
-        - Javascript
+        - JS
         - python
         - php
     validations:
