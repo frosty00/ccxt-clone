@@ -34,24 +34,23 @@ body:
     id: operating-system
     attributes:
       label: Operating System
-      placeholder: "MacOS Monteray v12.5.1 Intel Core i3"
       description: |
         - `uname -or` (Linux)
         - selecting ** -> System Preferences -> Overview** from the menu bar (MacOs)
         - selecting **Start > Settings > System > About** from bottom left menu (Windows)
     validations:
-      required: true
+      required: false
+
   - type: input
     id: language-version
     attributes:
       label: Language and Version
-      placeholder: "Node v18.4.0"
       description: |
         - `node -v`   (JavaScript)
         - `python -V` (Python)
         - `php -v`    (PHP)
     validations:
-      required: true
+      required: false
 
   - type: input
     id: ccxt-version
