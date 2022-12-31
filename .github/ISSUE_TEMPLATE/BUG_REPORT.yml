@@ -1,6 +1,8 @@
 name: New Issue
+title: Bug Report
 description: Report bugs here
 labels: []
+assignees: [ "carlosmiei", "frosty00" ]
 body:
   - type: markdown
     attributes:
@@ -51,7 +53,7 @@ body:
         - label: python
         - label: php
     validations:
-      require: true
+      required: true
 
   - type: input
     id: language-version
@@ -74,7 +76,7 @@ body:
         - `pip show ccxt`(Python)
         - `composer show ccxt` (PHP)
     validations:
-      required: false
+      required: true
 
   - type: textarea
     attributes:
