@@ -50,9 +50,9 @@ body:
       label: Programming Languages
       description: Which languages are relevant to this report?
       options:
-        - label: Javascript
-        - label: python
-        - label: php
+        - Javascript
+        - python
+        - php
     validations:
       required: true
 
