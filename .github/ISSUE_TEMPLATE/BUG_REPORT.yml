@@ -46,7 +46,7 @@ body:
   - type: dropdown
     id: language
     attributes:
-      multiple: true
+      multiple: false
       label: Programming Languages
       description: Which language are you using?
       options:
@@ -54,7 +54,7 @@ body:
         - python
         - php
     validations:
-      required: false
+      required: true
 
   - type: input
     id: ccxt-version
@@ -73,7 +73,7 @@ body:
       label: Description
       description: Describe the issue that you're having using words. Be precise. Include clear steps for how to reproduce the issue
     validations:
-      required: true
+      required: false
 
   - type: markdown
     attributes:
@@ -81,7 +81,7 @@ body:
 
         **DON'T POST SCREENSHOTS OF CODE OR ERRORS, POST THE OUTPUT AND CODE IN PLAIN TEXT!**
 
-        **DON'T POST YOUR API KEYS OR SECRET KEYS!** ```
+        **DON'T POST YOUR APIKEYS OR SECRET KEYS!**
 
   - type: textarea
     attributes:
@@ -95,7 +95,3 @@ body:
     validations:
       required: false
 
-    - type: markdown
-      attributes:
-        value: |
-          ```
