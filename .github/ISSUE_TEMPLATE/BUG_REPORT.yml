@@ -89,7 +89,9 @@ body:
       description: Post a complete program containing the minimal amount of code required for us to reproduce the error, so that we can copy and paste your code and receive the same error.
       value: |
         ```
-        ...
+        .
+        .
+        .
         ```
     validations:
       required: false
