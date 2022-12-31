@@ -91,7 +91,9 @@ body:
           ```
           YOUR CODE HERE
           ```
-      value: ```
+      value: |
+      ```
+      ...
       ```
     validations:
       required: false
