@@ -1,6 +1,6 @@
-name: Bug Report
+name: New Issue
 description: Report bugs here
-labels: ["bug"]
+labels: []
 body:
   - type: markdown
     attributes:
@@ -34,11 +34,11 @@ body:
     id: operating-system
     attributes:
       label: Operating System
-      placeholder: "e.g. MacOS Monteray v12.5.1 Intel Core i3"
+      placeholder: "MacOS Monteray v12.5.1 Intel Core i3"
       description: |
-        - `uname -or`                                                       (Linux) 
-        - selecting ** -> System Preferences -> Overview** from the menu bar  (MacOs)
-        - #TODO                                                                (Windows)
+        - `uname -or` (Linux)
+        - selecting ** -> System Preferences -> Overview** from the menu bar (MacOs)
+        - selecting **Start > Settings > System > About** from bottom left menu (Windows)
     validations:
       required: true
   - type: input
@@ -70,7 +70,7 @@ body:
       label: Description
       description: Describe the issue that you're having using words. Be precise. Include clear steps for how to reproduce the issue
     validations:
-      required: false 
+      required: false
 
   - type: textarea
     attributes:
@@ -78,7 +78,7 @@ body:
       description: Post a complete program containing the minimal amount of code required for us to reproduce the error, so that we can copy and paste your code and receive the same error. DON'T POST SCREENSHOTS OF CODE OR ERRORS, POST THE OUTPUT AND CODE IN PLAIN TEXT!
       placeholder: |
           ```
-          YOUR_CODE_HERE
+          YOUR CODE HERE
           ```
     validations:
       required: false
