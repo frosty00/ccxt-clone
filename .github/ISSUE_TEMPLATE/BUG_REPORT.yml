@@ -130,4 +130,15 @@ body:
           ```
     validations:
       required: true
-  
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      description: What language are you using?
+      options:
+        - JavaScript
+        - python
+        - php
+    validations:
+      required: false
