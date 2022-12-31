@@ -54,7 +54,7 @@ body:
         - python
         - php
     validations:
-      required: true
+      required: false
 
   - type: input
     id: ccxt-version
@@ -75,14 +75,6 @@ body:
     validations:
       required: false
 
-  - type: markdown
-    attributes:
-      value: |
-
-        **DON'T POST SCREENSHOTS OF CODE OR ERRORS, POST THE OUTPUT AND CODE IN PLAIN TEXT!**
-
-        **DON'T POST YOUR APIKEYS OR SECRET KEYS!**
-
   - type: textarea
     attributes:
       label: Code
@@ -95,3 +87,10 @@ body:
     validations:
       required: false
 
+  - type: markdown
+    attributes:
+      value: |
+
+        **DON'T POST SCREENSHOTS OF CODE OR ERRORS!**
+
+        **DON'T POST YOUR APIKEYS OR SECRET KEYS!**
