@@ -69,7 +69,7 @@ body:
   - type: input
     id: ccxt-version
     attributes:
-      label: CCXT Version [REQUIRED]
+      label: CCXT Version
       placeholder: "2.4.71"
       description: |
         - `npm info ccxt version` (JavaScript)
