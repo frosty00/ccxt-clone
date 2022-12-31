@@ -46,26 +46,15 @@ body:
   - type: dropdown
     id: language
     attributes:
-      multiple: true
+      multiple: false
       label: Programming Languages
-      description: Which languages are relevant to this report?
+      description: Which language are you using?
       options:
         - Javascript
         - python
         - php
     validations:
       required: true
-
-  - type: input
-    id: language-version
-    attributes:
-      label: Language Version
-      description: |
-        - `node -v`   (JavaScript)
-        - `python -V` (Python)
-        - `php -v`    (PHP)
-    validations:
-      required: false
 
   - type: input
     id: ccxt-version
