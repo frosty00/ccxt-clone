@@ -1,5 +1,5 @@
 name: New Issue
-title: Bug Report
+title: ISSUE TITLE
 description: Report bugs here
 labels: []
 assignees: [ "carlosmiei", "frosty00" ]
@@ -43,7 +43,7 @@ body:
     validations:
       required: false
 
-  - type: checkboxes
+  - type: dropbox
     id: language
     attributes:
       label: Which languages are relevant to this report
@@ -69,7 +69,7 @@ body:
   - type: input
     id: ccxt-version
     attributes:
-      label: CCXT Version
+      label: CCXT Version [REQUIRED]
       placeholder: "2.4.71"
       description: |
         - `npm info ccxt version` (JavaScript)
