@@ -64,7 +64,7 @@ body:
   - type: textarea
     attributes:
       label: Code
-      description: Post a complete program containing the minimal amount of code required for us to reproduce the error, so that we can copy and paste your code and receive the same error.
+      description: Don't post your API keys or secret keys!
       value: |
         ```
           
@@ -72,11 +72,3 @@ body:
         ```
     validations:
       required: false
-
-  - type: markdown
-    attributes:
-      value: |
-
-        **DON'T POST SCREENSHOTS OF CODE OR ERRORS!**
-
-        **DON'T POST YOUR APIKEYS OR SECRET KEYS!**
