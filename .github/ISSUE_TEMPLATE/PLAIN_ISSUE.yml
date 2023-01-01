@@ -1,0 +1,6 @@
+name: New Issue
+description: "Plain issue"
+labels: []
+assignees: [ "carlosmiei", "frosty00" ]
+body:
+  - type: input 
