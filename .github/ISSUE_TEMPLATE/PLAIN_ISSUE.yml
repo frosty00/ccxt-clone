@@ -1,9 +1,8 @@
 name: Plain issue
 description: "Plain issue"
-title: 'dfsadf'
 labels: []
 assignees: [ "carlosmiei", "frosty00" ]
 body:
-  - type: input
+  - type: textarea
     attributes:
       label: fsdfds
