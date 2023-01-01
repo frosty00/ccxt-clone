@@ -3,8 +3,10 @@ description: "Create a New Issue"
 labels: []
 assignees: [ "carlosmiei", "frosty00" ]
 body:
-  - type: markdown
+  - type: textarea
     attributes:
+      # invisible arabic question mark
+      label: ؜
       value: |
         MUST READ THIS BEFORE SUBMITTING ISSUES (read the links, then delete this message before submitting):
 
@@ -21,7 +23,4 @@ body:
         REPLACE_THIS_WITH_YOUR_CODE_TO_REPRODUCE_THE_ISSUE_WITHOUT_YOUR_KEYS
         ```
 
-  - type: textarea
-    attributes:
-      # invisible arabic question mark
-      label: ؜
+
