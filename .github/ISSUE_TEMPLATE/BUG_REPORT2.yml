@@ -17,9 +17,9 @@ body:
         - Programming Language version:
         - CCXT version:
 
-        ```
+        \`\`\`
         REPLACE_THIS_WITH_YOUR_CODE_TO_REPRODUCE_THE_ISSUE_WITHOUT_YOUR_KEYS
-        ```
+        \`\`\`
 
   - type: textarea
     attributes:
