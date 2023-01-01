@@ -3,10 +3,6 @@ description: "Create a New Issue"
 labels: []
 assignees: [ "carlosmiei", "frosty00" ]
 body:
-  - type: markdown:
-    attributes:
-      value: |
-        MUST READ THIS BEFORE SUBMITTING ISSUES (read the links, then delete this message before submitting):
 
   - type: textarea
     attributes:
