@@ -1,4 +1,5 @@
 name: Plain issue
+title: fdsf
 description: "Plain issue"
 title: 'dfsadf'
 labels: []
@@ -6,3 +7,4 @@ assignees: [ "carlosmiei", "frosty00" ]
 body:
   - type: input
     attributes:
+      label: fsdfds
