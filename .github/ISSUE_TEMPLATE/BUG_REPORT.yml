@@ -17,14 +17,6 @@ body:
           - [API Keys Setup](https://github.com/ccxt/ccxt/wiki/Manual#api-keys-setup)
         - Read the [API docs](https://github.com/ccxt/ccxt/wiki/Exchange-Markets) for your exchange.
 
-        ### Reporting Vulnerabilities And Critical Issues
-
-        If you found a security issue or a critical vulnerability and reporting it in public would impose risk – please feel free to send us a message to <a href="mailto:info@ccxt.trade">info@ccxt.trade</a>.
-
-        ------------------
-
-        ## Preliminary Checks
-
         ### By posting an issue using this template, you agree that
 
         - You have already searched for [existing issues](https://github.com/ccxt/ccxt/issues) and confirmed that this issue is not a duplicate
@@ -32,14 +24,12 @@ body:
         - You have read the [FAQ](https://github.com/ccxt/ccxt/wiki/FAQ) for most frequently asked questions
         - You have read the [Troubleshooting](https://github.com/ccxt/ccxt/wiki/Manual#troubleshooting) section of the manual and followed troubleshooting steps
 
+        ---
+
   - type: input
     id: operating-system
     attributes:
       label: Operating System
-      description: |
-        - `uname -or` (Linux)
-        - selecting ** -> System Preferences -> Overview** from the menu bar (MacOs)
-        - selecting **Start > Settings > System > About** from bottom left menu (Windows)
     validations:
       required: false
 
@@ -61,10 +51,6 @@ body:
     attributes:
       label: CCXT Version
       placeholder: "2.4.71"
-      description: |
-        - `npm info ccxt version` (JavaScript)
-        - `pip show ccxt`(Python)
-        - `composer show ccxt` (PHP)
     validations:
       required: true
 
