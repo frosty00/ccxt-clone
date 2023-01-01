@@ -3,7 +3,10 @@ description: "Create a New Issue"
 labels: []
 assignees: [ "carlosmiei", "frosty00" ]
 body:
-
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
   - type: textarea
     attributes:
       label: fsdfds
