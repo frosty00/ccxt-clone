@@ -51,9 +51,8 @@ body:
     id: ccxt-version
     attributes:
       label: CCXT Version
-      placeholder: "2.4.71"
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
